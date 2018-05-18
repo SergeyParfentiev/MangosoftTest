@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-//@Service(value = "userService")
+@Service(value = "userService")
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired UserService userService;
